@@ -1,4 +1,4 @@
-const Joi = require('joi')
+const Joi = require('joi');
 const mongoose = require('mongoose');
 
 const Customer = mongoose.model('Customer', new mongoose.Schema({
